@@ -103,7 +103,7 @@ st.markdown("""
 # ============================================
 col1, col2 = st.columns([3, 1])
 with col1:
-    st.markdown('<p style="font-size:0.75rem; font-weight:700; color:#1E4A46; letter-spacing:0.04em; text-transform:uppercase;">DESAFÍO BELTRÁN 2026 — DIAGNÓSTICO / CIENCIA DE DATOS</p>', unsafe_allow_html=True)
+    st.markdown('<p style="font-size:0.75rem; font-weight:700; color:#1E4A46; letter-spacing:0.04em; text-transform:uppercase;">DESAFÍO BELTRÁN 2026 — DIAGNÓSTICO </p>', unsafe_allow_html=True)
     st.markdown('<h1 class="main-header">Accesibilidad urbana en Avellaneda</h1>', unsafe_allow_html=True)
     st.markdown('<p class="sub-header">Estimación de la población con discapacidad o movilidad reducida, construida a partir de fuentes públicas oficiales (INDEC, Censo 2022).</p>', unsafe_allow_html=True)
 with col2:
@@ -332,7 +332,6 @@ st.markdown("""
 # ============================================
 st.markdown("""
     <div class="footer">
-        <span>Instituto Tecnológico Beltrán — Encuentro Interdisciplinario de Innovación 2026</span>
-        <span>Aporte del área de Ciencia de Datos</span>
+        <span>Instituto Tecnológico Beltrán </span>
     </div>
 """, unsafe_allow_html=True)
